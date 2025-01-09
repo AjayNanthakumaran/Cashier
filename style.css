@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: whitesmoke;
+    font-family: "Quicksand", serif;
+}
+
+#navbar{
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 15px;
+    height: 100px;
+    background-color: white;
+}
+
+nav{
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+nav h1{
+    font-size: 32px;
+}
+nav ul{
+    display: flex;
+    color: black;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-size: 18px;
+}
+
+button{
+    height: 35px;
+    width: 100px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(224, 224, 224);
+    transition: ease .5s;
+    border: white;
+}
+
+button:hover{
+    background-color: rgb(197, 193, 193);
+}
+
+#Hero-section{
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border-radius: 12px;
+    height: 500px;
+
+    background-color: rgb(238, 237, 237);
+}
+#Hero-section img{
+    color: blueviolet;
+    height: 16px;
+
+}
+
+
+
+
+#hero-container{
+    display: flex;
+    background-color: rgb(147, 193, 249);
+    width: 300px;
+    border-radius: 13px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#secure h1{
+    margin-right: 600px;
+    font-size: 45px;
+    margin-left: 50px;
+}
+#secure p{
+    margin-top: 20px;
+    margin-right: 700px;
+    margin-left: 50px;
+}
+
+#buttons{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#btn1{
+    background-color: blueviolet;
+    color: white;
+}
+
+#banner{
+    margin-left: 550px;
+    margin-top: -320px;
+}
+#banner img{
+    width: 500px;
+    height: 50%;
+    mix-blend-mode: multiply;
+}
